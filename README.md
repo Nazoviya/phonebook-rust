@@ -1,4 +1,4 @@
-# phonebok-rust
+# phonebook-rust
 
 Welcome to the phonebook-rust.
 
