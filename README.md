@@ -8,4 +8,5 @@ Welcome to the phonebook-rust.
 add, delete, printout, search, and close.
 
 -output.txt file is just an example, no need to use.
+
 -Even though output.txt does not exists, it will be created automatically.
