@@ -2,7 +2,6 @@ use std::io;
 use std::io::prelude::*;
 use std::fs::File;
 
-
 pub fn search(){
 
     // takes input from user and pass value to string named search.
@@ -54,30 +53,3 @@ pub fn search(){
         println!("Search string must be less than 100 characters.\n");
     }
 }
-
-
-/*
-
-if contents.contains(&search.trim()) {
-    let mut count = 0;
-    for j in contents.lines() {
-        if j.contains(&search.trim()) {
-            count = count + 1;
-            let a = count.to_string();
-            //let mut vec2 = Vec::new();
-            //vec2.push(a);
-        }
-    }
-    println!("{}", a);
-}
-
-
-*/
-
-
-//if i.contains(&search.trim()) && (search.trim() == v[0]) || search.trim() == v[1] {
-
-
-//let person: Person = Person { name: &print, surname: &print, number: &print};
-
-// println!("-{}-{}-{}", person.name, person.surname, person.number);
