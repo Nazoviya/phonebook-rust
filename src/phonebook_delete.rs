@@ -3,7 +3,6 @@ use std::fs;
 use std::io::{Write};
 use std::fs::OpenOptions;
 
-
 pub fn delete(){
 
     //read every value from file and pass into string named contents.
@@ -54,75 +53,3 @@ pub fn delete(){
         println!("\n-Telephone number couldn't found.\n");
     }
 }
-
-
-
-/*
-    let mut file = OpenOptions::new()
-        .read(true)
-        .write(true)
-        .open("output.txt")
-        .expect("error");
-*/
-
-//fs::rename("output2.txt", "a.txt");
-//fs::rename("output.txt" , "b.txt");
-//fs::rename("a.txt"      , "output.txt");
-
-
-/*
-
-let mut file = OpenOptions::new().append(true).open("output.txt")
-    .expect("cannot open file");
-
-//println!("{}", i.trim().to_owned());
-
-let mut last = String::from("");
-let last = i.to_owned() + "\n";
-
-println!("{}", i);
-//file.write_all(last.as_bytes())
-//    .expect("fail");
-
-
-file.write_all(last.as_bytes())
-    .expect("fail");
-
-
-*/
-
-
-
-/*
-
-let mut file = OpenOptions::new().append(true).open("output.txt")
-    .expect("cannot open file");
-
-let mut last = String::from("");
-let last = i.to_owned() + "\n";
-
-//fs::remove_file("output.txt");
-
-file.write_all(last.as_bytes())
-    .expect("fail");
-
-
-*/
-
-
-
-/*
-
-//pass every value in the file and replace without
-//given phone number content to new file.
-let mut lines = BufReader::new(file).lines().skip(1)
-    .map(|x| x.unwrap())
-    .collect::<Vec<String>>().join("\n");
-    //where write the content without given phone number content.
-    fs::write("output.txt", lines)
-        .expect("can't write");
-
-    println!("Successfully deleted.");
-
-
-*/
