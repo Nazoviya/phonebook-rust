@@ -5,7 +5,6 @@ use std::fs;
 use std::fs::OpenOptions;
 use std::io::ErrorKind;
 
-
 pub fn add(){
     //takes name as string from user and assign to value called input.
     let mut input = String::new();
@@ -86,48 +85,4 @@ pub fn add(){
         println!("\nERROR! name should be < 100, surname should be < 100,
 and telephone number should < 30 characters.");
     }
-
-
-
-    //println!("{}", i);
-    //println!("{}", contents.trim().len());
-    /*
-                    file.write_all(input.as_bytes())
-                        .expect("write failed");
-                    file.write_all(input2.as_bytes())
-                        .expect("write failed");
-                    file.write_all(input3.as_bytes())
-                        .expect("write failed");
-                    file.write_all("----------------------\n".as_bytes())
-                        .expect("write failed");
-    */
-
-
-/*
-    let mut phonebook: Vec<String> = Vec::new();
-
-    phonebook.push(input);
-    phonebook.push(input2);
-    phonebook.push(input3);
-*/
-
-    //let mut file = std::fs::File::create("output.txt")
-    //    .expect("failed.");
-
-
-
-
-    /*
-    let mut file = File::create("output.txt")
-        .expect("basaramadik abi");
-
-    file.write_all(b"&input")
-        .expect("something wrong");
-    */
-
-    /*for number in phonebook.iter() {
-        print!("{}", number);
-    }*/
-
-
 }
